@@ -11,7 +11,8 @@ app.use(
     origin: [
       "http://localhost:3000", 
       "http://127.0.0.1:3000",
-      process.env.FRONTEND_URL || "https://your-app.vercel.app"
+      "https://mern-food-blog-frontend.vercel.app",
+      process.env.FRONTEND_URL
     ],
     credentials: true,
   })
